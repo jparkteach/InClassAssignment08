@@ -14,16 +14,22 @@
     <ScrollView
         android:id="@+id/scroll_view"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@+id/imageView1">
+        android:layout_height="300dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/add"
+        app:layout_constraintTop_toBottomOf="@+id/imageView1"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent">
 
         <TextView
             android:id="@+id/display_text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
             android:text="Hello World!"
-            tools:layout_editor_absoluteX="154dp"
-            android:layout_marginTop="16dp" />
+            tools:layout_editor_absoluteX="154dp" />
     </ScrollView>
 
     <Button
