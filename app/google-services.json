@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "145655297378",
+    "firebase_url": "https://inclassassignment08-fc587.firebaseio.com",
+    "project_id": "inclassassignment08-fc587",
+    "storage_bucket": "inclassassignment08-fc587.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:145655297378:android:58d0b9a79367464d",
+        "android_client_info": {
+          "package_name": "net.jptechnology.android.inclassassignment08_johnp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "145655297378-hs9o745s827gt44m8uqllba7m1l74sei.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBabi2NvmZ4NpiF1VdMmsMRx-FuHYPzVKA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

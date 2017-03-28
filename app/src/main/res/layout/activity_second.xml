@@ -3,11 +3,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="net.jptechnology.android.inclassassignment08_johnp.MainActivity">
+    tools:context="net.jptechnology.android.inclassassignment08_johnp.SecondActivity">
 
-    <ImageView
-        android:id="@+id/imageView1"
+    <ScrollView
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content">
 
+        <TextView
+            android:id="@+id/display_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </ScrollView>
 </android.support.constraint.ConstraintLayout>
