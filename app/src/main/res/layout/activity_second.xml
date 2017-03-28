@@ -5,13 +5,5 @@
     android:layout_height="match_parent"
     tools:context="net.jptechnology.android.inclassassignment08_johnp.SecondActivity">
 
-    <ScrollView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
 
-        <TextView
-            android:id="@+id/display_text"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
-    </ScrollView>
 </android.support.constraint.ConstraintLayout>
