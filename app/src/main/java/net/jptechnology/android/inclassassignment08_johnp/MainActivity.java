@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         new DownloadImageTask((ImageView) findViewById(R.id.imageView1))
-                .execute("gs://takehomeassignment08.appspot.com/userpics/0dc67f6d-6f68-415e-8b39-47b749900e95.png");
+                .execute("https://firebasestorage.googleapis.com/v0/b/takehomeassignment08.appspot.com/o/userpics%2F0dc67f6d-6f68-415e-8b39-47b749900e95.png?alt=media&token=fc6c4d31-f7d1-48d8-ae19-474936b4b011");
     }
 
     private class DownloadImageTask extends AsyncTask<String, Void, Bitmap> {
