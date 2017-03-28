@@ -1,11 +1,13 @@
 package net.jptechnology.android.inclassassignment08_johnp;
 
+import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
+import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -61,6 +63,11 @@ public class MainActivity extends AppCompatActivity {
             public void onCancelled(DatabaseError databaseError) {
             }
         });
+    }
+
+    public void add(View view) {
+        Intent i = new Intent(this, SecondActivity.class);
+        startActivity(i);
     }
 
     private class DownloadImageTask extends AsyncTask<String, Void, Bitmap> {
